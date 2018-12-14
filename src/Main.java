@@ -22,31 +22,31 @@ public class Main extends Application {
         LinkedList<Menu> menuList = new LinkedList<>();
 
         Menu menu1 = new Menu("Color");
-        LinkedList<MenuItem> itemsForMenu1 = new LinkedList<MenuItem>();
-        itemsForMenu1.add(new MenuItem("Blue"));
-        itemsForMenu1.add(new MenuItem("Yellow"));
-        itemsForMenu1.add(new MenuItem("Red"));
-        itemsForMenu1.add(new MenuItem("Black"));
-        itemsForMenu1.add(new MenuItem("Green"));
+        LinkedList<BubblingMenuItem> itemsForMenu1 = new LinkedList<BubblingMenuItem>();
+        itemsForMenu1.add(new BubblingMenuItem("Blue"));
+        itemsForMenu1.add(new BubblingMenuItem("Yellow"));
+        itemsForMenu1.add(new BubblingMenuItem("Red"));
+        itemsForMenu1.add(new BubblingMenuItem("Black"));
+        itemsForMenu1.add(new BubblingMenuItem("Green"));
 
         Menu menu2 = new Menu("Text");
-        LinkedList<MenuItem> itemsForMenu2 = new LinkedList<MenuItem>();
-        itemsForMenu2.add(new MenuItem("Un"));
-        itemsForMenu2.add(new MenuItem("Deux"));
-        itemsForMenu2.add(new MenuItem("Trois"));
-        itemsForMenu2.add(new MenuItem("Quatre"));
-        itemsForMenu2.add(new MenuItem("Cinq"));
+        LinkedList<BubblingMenuItem> itemsForMenu2 = new LinkedList<BubblingMenuItem>();
+        itemsForMenu2.add(new BubblingMenuItem("Un"));
+        itemsForMenu2.add(new BubblingMenuItem("Deux"));
+        itemsForMenu2.add(new BubblingMenuItem("Trois"));
+        itemsForMenu2.add(new BubblingMenuItem("Quatre"));
+        itemsForMenu2.add(new BubblingMenuItem("Cinq"));
 
         Menu menu3 = new Menu("AZERTYUIOP");
         Menu subMenu1 = new Menu("1st row");
         Menu subMenu2 = new Menu("2nd row");
         Menu subMenu3 = new Menu("3rd row");
-        LinkedList<MenuItem> itemsForMenu3 = new LinkedList<MenuItem>();
-        itemsForMenu3.add(new MenuItem("A"));
-        itemsForMenu3.add(new MenuItem("Z"));
-        itemsForMenu3.add(new MenuItem("E"));
-        itemsForMenu3.add(new MenuItem("R"));
-        itemsForMenu3.add(new MenuItem("T"));
+        LinkedList<BubblingMenuItem> itemsForMenu3 = new LinkedList<BubblingMenuItem>();
+        itemsForMenu3.add(new BubblingMenuItem("A"));
+        itemsForMenu3.add(new BubblingMenuItem("Z"));
+        itemsForMenu3.add(new BubblingMenuItem("E"));
+        itemsForMenu3.add(new BubblingMenuItem("R"));
+        itemsForMenu3.add(new BubblingMenuItem("T"));
 
         menu1.getItems().addAll(itemsForMenu1);
         menu2.getItems().addAll(itemsForMenu2);
